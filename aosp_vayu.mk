@@ -18,6 +18,7 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_USES_MIUI_CAMERA := true
+TARGET_CAMERA_USES_NEWER_HIDL_OVERRIDE_FORMAT := true
 
 PRODUCT_NAME := aosp_vayu
 PRODUCT_DEVICE := vayu
